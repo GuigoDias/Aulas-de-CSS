@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+.familia{
+    background-color: greenyellow;
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+div{
+    background-color: aqua;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: solid;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}

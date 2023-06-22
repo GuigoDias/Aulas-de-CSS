@@ -1,0 +1,21 @@
+.pai{
+    display: grid;
+    border: 1px solid black;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+.filho{
+    margin: 5px;
+    background-color: tomato;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.atv1{
+    grid-template-columns: 200px 200px 200px;
+}
+
+.atv2{
+    grid-template-columns: 1fr 2fr;
+}

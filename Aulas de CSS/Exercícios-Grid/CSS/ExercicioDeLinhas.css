@@ -1,0 +1,23 @@
+.pai{
+    margin: auto;
+    display: grid;
+    border: 1px solid black;
+    max-width: 600px;
+}
+
+.filho{
+    background-color: aqua;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.atv1{
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px;
+}
+
+.atv2{
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}

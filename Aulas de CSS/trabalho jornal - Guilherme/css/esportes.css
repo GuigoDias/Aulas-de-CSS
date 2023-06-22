@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d6d4d4;
+}
+
+header{
+    background-color: #90a955;
+    padding: 20px;
+    width: 100%;
+}
+
+.logo{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #264422;
+    border-bottom: 1px solid #31572c;
+    display: inline-block;
+}
+
+.class{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #264422;
+    border-bottom: 1px solid #31572c;
+}
+
+header h1{
+    display: inline-block;
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    width: 350px;
+}
+
+nav a {
+    color: #fff;
+    margin: 20px 10px;
+    font-size: 1.2rem;
+}
+
+.botao:hover{
+    background-color: #4f772d;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.cor{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+}
+
+img{
+    max-width: 800px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.NoticiaPrincipal p,h4{
+    text-align: justify;
+    max-width: 800px;
+    margin: 10px;
+}
+
+.bloco{
+    border: 1px dashed black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.noticias img{
+    width: 400px;
+    margin-top: 100px;
+}
+
+.noticias .ImgEsquerda{
+    float: left;
+}
+
+.noticias .ImgDireita{
+    float: right;
+}
+
+.noticias .direita{
+    float: right;
+    max-width: 350px;
+}
+
+.noticias .esquerda{
+    float: left;
+    max-width: 350px;
+}
+
+footer{
+    background-color: #90a955;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

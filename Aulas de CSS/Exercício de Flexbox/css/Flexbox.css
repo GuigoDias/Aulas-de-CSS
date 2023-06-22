@@ -1,0 +1,53 @@
+main{
+    background-color: rgb(255, 208, 0);
+    margin: 3px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+.parte1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.verde{
+    background-color: green;
+    border: 1px solid black;
+    height: 80px;
+    width: 200px;
+}
+
+.azul{
+    background-color: blue;
+    border: 1px solid black;
+    height: 80px;
+    width: 200px;
+}
+
+.vermelho{
+    background-color: red;
+    border: 1px solid black;
+    height: 80px;
+    width: 200px;
+}
+
+.parte2{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.parte3{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.parte4{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 3px;
+    font-size: 50px;
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+}
+
+.filho1{
+    background-color: palevioletred;
+    width: 40%;
+    height: 100%;
+}
+
+.pai2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.filho2{
+    background-color: greenyellow;
+    width: 100%;
+    height: 40%;
+}
+
+.pai3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+}
+
+.filho3{
+    background-color: pink;
+    width: 40%;
+    height: 100%;
+}
+
+.pai4{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.filho4{
+    background-color: rgb(72, 72, 255);
+    width: 100%;
+    height: 50%;
+}

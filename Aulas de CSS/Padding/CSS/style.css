@@ -1,0 +1,32 @@
+body{
+    background-color: #262737;
+    color: white;
+}
+
+section{
+    border: 1px solid green;
+    padding: 70px;
+}
+
+article h1{
+    text-align: center;
+
+}
+
+article p{
+    text-align: justify;
+}
+
+article .boxPaddin{
+    border: 1px solid yellowgreen;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.box2 .boxPaddin{
+    background-color: gray;
+    border: 2px solid darkred;
+    padding: 25px 50px 75px 100px;
+}
